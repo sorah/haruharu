@@ -1,0 +1,13 @@
+begin
+  require 'jeweler'
+  Jeweler::Tasks.new do |gemspec|
+    gemspec.name = "haruharu"
+    gemspec.summary = "about streaming receiver"
+    gemspec.email = "sorah@tubusu.net"
+    gemspec.homepage = "http://github.com/sorah/haruharu"
+    gemspec.description = "about streaming receiver. streaming server is not included."
+    gemspec.authors = ["Shota Fukumori (sora_h)"]
+  end
+rescue LoadError
+  puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
+end
